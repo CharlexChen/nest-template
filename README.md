@@ -58,6 +58,15 @@ $ pnpm run test:e2e
 $ pnpm run test:cov
 ```
 
+## 脚手架快速生成命令
+
+`nest g mo`：生成一个模块以保持代码有条理并建立清晰的边界
+`nest g co`：生成一个控制器来定义 CRUD 路由
+`nest g s`：生成一个服务来实现和隔离业务逻辑
+`nest g resource`：生成所有 NestJS 构建块（模块、服务、控制器类），还可生成实体类、DTO 类以及测试（.spec）文件
+
+> 使用--no-spec标志可以避免生成测试文件，比如nest g resource users --no-spec
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
